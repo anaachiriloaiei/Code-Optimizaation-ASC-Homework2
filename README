@@ -1,0 +1,16 @@
+Achiriloaiei Ana
+334 CC
+
+Tema 2
+Aceasta tema are scopul de a ne face sa  intelegem cat de importanta este memoria, 
+si cum putem sa ne optimizam codul. Cerinta temei fiind opimizarea inmultirii de 
+matrice. Pentru realizare ei, am avut de completat 3 fisiere sursa:
+solver_blas.c:
+	Am folosit functia cblas_dgemm(). 
+solver_neopt.c:
+	Aceasta este implementarea "de mana:", implementarea clasica pentru
+inmultirea de matrice, cea prezentata si in laboratorul 5.
+solver_opt.c:
+	Am ales optimizarea cu reanjarea buclelor interioare si memorarea unei 
+sume partiale.
+	
